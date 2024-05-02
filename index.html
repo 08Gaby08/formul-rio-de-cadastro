@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" href="./styles/css.css">
+</head>
+<body>
+    <section class="formu">
+        <form>
+            <h1>Inscreva-se</h1>
+                <div class="inputs">
+                    <input type="text" placeholder="Nome completo">
+                    <input type="email" placeholder="E-mail">
+                    <input type="text"  placeholder="CPF">
+                    <input type="tel" placeholder="Telefone">
+                    <input type="text" placeholder="Endereço">
+                    <input type="text"  placeholder="Cidade">
+                </div>
+                
+                <div class="documentos-titulos-container">
+                    <div class="documento">
+                        <p class="documentos-titulo">Documento de Identidade</p>
+                        <label>
+                            <input type="file">
+                            <img src="./assets/Vector.png">
+                            <div class="text_label">
+                                <span>Selecione arquivo ou arraste pra cá</span>
+                                <span id="cinza">JPG, PNG ou PDF</span>
+                            </div>
+                            <h5>Selecionar</h5>
+                        </label>
+                    </div>
+                    <div class="documento">
+                        <p class="documentos-titulo">Comprovante de Residência</p>
+                        <label>
+                            <input type="file">
+                            <img src="./assets/Vector.png">
+                            <div class="text_label">
+                                <span>Selecione arquivo ou arraste pra cá</span>
+                                <span id="cinza">JPG, PNG ou PDF</span>
+                            </div>
+                            <h5>Selecionar</h5>
+                        </label>
+                    </div>
+                </div>
+                <div class="aten"><h2>*Atenção: Todos os dados acima são obrigatórios</h2></div>
+                    <div class="button">
+                        <button id="cancelar" >Cancelar</button>
+                        <button>Enviar</button>
+                    </div>
+        </form>
+    </section>
+
+    <section class="imagem">
+        <img src="./assets/imagem alura.png" id="alura">
+    </section>
+</body>
+</html>
